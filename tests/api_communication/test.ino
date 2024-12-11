@@ -4,22 +4,20 @@
 // #include <FirebaseJson.h>  // Ensure this library is included
 
 // WiFi Credentials
-#define WIFI_SSID "NET_2G7B25AD"  // Your WiFi SSID
-#define WIFI_PASSWORD "4F7B25AD"  // Your WiFi password
+#define WIFI_SSID 
+#define WIFI_PASSWORD 
 
 // Google Cloud Project Details
-#define PROJECT_ID "monitor-cilcista"
+#define PROJECT_ID 
 
 // Service Account Credentials
-#define CLIENT_EMAIL "monitorciclista@monitor-cilcista.iam.gserviceaccount.com"
+#define CLIENT_EMAIL 
 
 // Service Account's Private Key (ensure proper formatting with \n)
-const char PRIVATE_KEY[] PROGMEM = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC99JHBNy/JhkMT\nRYmEC5RRVCmz3FWhDHFOnGErGY+g0n8mEfTpPg92x6Fn4T4m7PjGEqiOYnhIUdyw\neEcZp6Iu7kCV9AoLK+KynBrri9ex5FguINeIXAzunoZHnXDgqEzVwNC1lyQyTdb7\nv1IB7gI+nHWIIHsEntPBy+RZO778UQutAmZiUp0Ya8dKEU9s9Ue0RSPWpvwQpo8T\nmSM0QQe0rzOtKcvzX2NPIw6Al4JXaOJoM3nZ1gKQgO7qL9cTTa6AITGUiwUkrTT/\nUz8lybnXiQL0THCsY0td1jxoQdTyQ7LaTerZKsY3dcAdNyHGVfL2wAuS74vnLBWR\n+7Z1YFiXAgMBAAECggEAFy1qxW0S5x97OrQ+4b459Cx1RC1rw1FN1/4ruwMM694T\nRpVlUTpRz7fvAUpR95Tti9mF+I2aSJS4fU3HuyEhoGFQvxs+SHur1whGHpx7Doki\nm0pFki1NJKZyEvXqancOnPxAWw/cikjGJQSEoJimbHZRvvDbocYxZ1GWBK9OD+Ir\n3mPvjLcjW10cRhhBfRgU0kyGlPzMaxSfsodBYFxlSyREiFDfYA+la6kv1llcjf9j\n9o4Mxy+JdiFRpZ0ByLzC3cdUkk01qywZvgC+n31ELJgVUm6I/V8LJMeaBJPX3URJ\nQtUMJE4U5BwxKuwzUJPMd6nH6BeNgMSgmq0wjM12aQKBgQDd2Rn23GeUbVa+9V27\nvnMH2MymD6zpr+z2g72hSvbR4BOn7IP7tPiojRKuC5pQNEQ/KRWIX1clKu6b6d5G\nYcVzg8p6Qk1ZsT9WUuYVVHR9cecDfxIUN+s595RuyAb4y8Sab/ICMxTMF5MG59Bo\nKaSgFm60caeY1MZ7NhmcqzxUmQKBgQDbMph7ih824WUcdgsJVoQb5LYrjIHQbs9O\n/SefslRB+oa3GMkJ60rQW5FUSl896CzRimGogtM7qBqNC3h3K6XriqqteQRRTaDG\nWwf+vEFZmSauwAiEkk4UxD4INK7tuPjDgrIfktKAUjWAt1mwECGs6rbe24IA/Njn\nzpyrzkUkrwKBgC9eEG4mBzOo2NGzAA17D4KIZsG6LRhESNslq9KJeAO9zVSYamHO\n9Ry/6lIhBhTD5CJ8Oi3A9ZFpBkNh/uSWMZuFczEBgRR6hOSAlMHPI4Q5UrLracfJ\nXL8mvpmcuehbUaIL7udLUtB05B6gVl43LgBEaeS7M6atH6flGDjcUuhZAoGAeHvk\nEqvGIo1b3XwI7vYOIaLieyd9R0tRShKekAoehDGnkMbf4kLh2YsrY9CJb2bKE9dj\nfJOEdhsdlP+EFMT6K3EKBdYqCGKKB92LlHp31T74Yz+MrwoYPxPrIOmMaYCtxBF3\nxSEX8Y6+d+TQOJV1XS2anP69A7v3odsQhOMZYGMCgYEAqUxIgZ07fpWgE4Z9yy9r\n8GK5r5g8FQCcv4Ay34BhauE+4PDqSixLjiA1YoZ72CkuHSKlaev+FnA4TI0PbiXT\ntNFuhoVxwp13MIMfDL6z4BXSVViiOPQJYhmkHQAlndWJEEwDEixjhWJV+DBM4WJB\nO86pB3n2POvBckFOBf5cSWA=\n-----END PRIVATE KEY-----\n";
-
 
 // Spreadsheet Details
-#define SPREADSHEET_ID "1D0T8XxEPtv21ZRA23hG3YEpjcttYyo2njtz9Ztr2vnE"
-#define SHEET_NAME "Sheet1"
+#define SPREADSHEET_ID 
+#define SHEET_NAME 
 
 bool taskComplete = false;
 
